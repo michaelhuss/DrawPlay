@@ -40,3 +40,6 @@ public class MyDrawing extends JPanel {
 //Patrick Ng Change 1 -- changed eye color to blue
 //Michael Huss Change 1 -- added another cat
 //Michael Huss Change 2 -- added pupils to eye of cat
+//Patrick Ng Change 2 -- added text bubble
+//Michael Huss Change 3 -- moved meow text into text bubble
+//Patrick Ng Change 3 -- added tongue
