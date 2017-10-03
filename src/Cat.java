@@ -19,6 +19,10 @@ public class Cat {
 	// mouth starts about 40% from left edge of head
 	private static final int MOUTH_X = HEAD_DIMENSION/5 * 2;
 	private static final int MOUTH_Y = HEAD_DIMENSION/5 * 3;
+	//Name Bubble start
+	private static final int EAR_X = HEAD_DIMENSION/2;
+	private static final int EAR_Y = HEAD_DIMENSION/2;
+	
 	
 	// draw will render the Cat on the Graphics object
 	public void draw(Graphics g, int catX, int catY)
@@ -52,6 +56,12 @@ public class Cat {
 		// Meow text appears below cat head, +10 places below 
 		// so it doesn't overlap the drawing
 		g2.drawString("Meow", catX, catY+HEAD_DIMENSION+10);
+		//Draw the Name Bubble
+		g2.setColor(Color.green);
+		x = catX + EAR_X + 3;
+		y = catY - EAR_Y;
+		g2.fillRect(x, y, EAR_X, EAR_Y);
+
 		
 		
 	}

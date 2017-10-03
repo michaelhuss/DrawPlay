@@ -36,3 +36,7 @@ public class MyDrawing extends JPanel {
 	}
 
 }
+
+//Patrick Ng Change 1 -- changed eye color to blue
+//Michael Huss Change 1 -- added another cat
+//Michael Huss Change 2 -- added pupils to eye of cat
